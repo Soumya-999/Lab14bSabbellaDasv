@@ -1,4 +1,4 @@
-public class Train
+public class Train extends RailCar
 {
   public static void addCar(String s, Color m)
   {
