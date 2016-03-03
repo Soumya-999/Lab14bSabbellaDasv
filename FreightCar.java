@@ -9,7 +9,7 @@ import java.awt.*;
 public class FreightCar extends RailCar
 {
 	private Color carColor;
-	private int xPos;
+//	private int xPos;                      This is commented because the protected xPos from the RailCar class will be used
 	private int yPos;
 
 	public FreightCar(Color cC, int xPos, int yPos)
