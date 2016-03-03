@@ -9,7 +9,7 @@ import java.awt.*;
 public class Caboose extends RailCar
 {
 	private Color carColor;
-	private int xPos;
+//	private int xPos;              We commented this out because the xPos from the RailCar class will transfer because it is now protected
 	private int yPos;
 
 	public Caboose(Color cC, int xPos, int yPos)
