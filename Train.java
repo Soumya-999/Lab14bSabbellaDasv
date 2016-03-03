@@ -84,7 +84,7 @@ public class Train
        for (int i=pos+1; i < cars.size(); i++)        //for loop re-draws the train after the inserted car
        {
           car = cars.get(i);
-          car.setXPosition(car.getXPosition()+ 175);   //translates each car by 175
+          car.setXPosition(car.getXPosition()+ 175);   //translates each car after the inserted car by 175
        }
     
     }
