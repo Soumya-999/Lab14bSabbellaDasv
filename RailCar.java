@@ -1,8 +1,4 @@
-// RailCar.java
-// This is the <RailCar> class that is the 
-// super class for other train classes.
-// This is one of the student starting files
-// of the Lab14b lab assignment.
+
 
 
 import java.awt.*;
@@ -11,7 +7,7 @@ import java.awt.*;
 public class RailCar
 {
 	private Color carColor;
-	private int xPos;
+	protected int xPos;                 //changed to protected so that modified xPos will be used in subclass-makes doors/windowns appear on the right car
 	private int yPos;
 
 	public RailCar(Color cC, int xP, int yP)
@@ -27,6 +23,16 @@ public class RailCar
       drawRailWheels(g);
       drawLink(g);
 	}
+ //following set and get methods are created to reassign the xPos-allows us to translate the train over one space(100pt)
+ public void setXPosition(int newxPos)    
+ {
+ 	xPos =newXPos;
+ }
+ 
+ public int getXPosition()
+ {
+ 	return xPos;
+ }
    
    private void drawContainer(Graphics g)
    {
