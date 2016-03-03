@@ -1,6 +1,4 @@
-// PassengerCar.java
-// This is one of the student starting files
-// of the Lab14b lab assignment.
+
 
 
 import java.awt.*;
@@ -9,7 +7,7 @@ import java.awt.*;
 class PassengerCar extends RailCar
 {
 	private Color carColor;
-	private int xPos;
+//	private int xPos;        This is commented because the protected xPos from the RailCar class will be used.
 	private int yPos;
 
 	public PassengerCar(Color cC, int xPos, int yPos)
