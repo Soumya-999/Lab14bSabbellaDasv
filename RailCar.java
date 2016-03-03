@@ -24,12 +24,12 @@ public class RailCar
       drawLink(g);
 	}
  //following set and get methods are created to reassign the xPos-allows us to translate the train over one space(100pt)
- public void setXPosition(int newxPos)    
+ public void setxPosition(int newxPos)    
  {
- 	xPos =newXPos;
+ 	xPos =newxPos;
  }
  
- public int getXPosition()
+ public int getxPosition()
  {
  	return xPos;
  }
